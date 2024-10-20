@@ -26,7 +26,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     position: fixed;
     top: 0; /* Asegúrate de que esté en la parte superior */
     left: 0; /* Asegúrate de que se alinee a la izquierda */
@@ -109,7 +109,8 @@ h1{
 }
 
 #redes{
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
