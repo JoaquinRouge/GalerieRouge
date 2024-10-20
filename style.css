@@ -111,43 +111,25 @@ h1{
 #redes{
     padding-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     border-top: 1px solid var(--bordeClaro);
     background-color: var(--marronOscuro);
 }
 
 .media{
     display: flex;
-    flex-direction: column;
-    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
 }
 
 .logo-footer img{
     width: 200px;
 }
 
-#mp-img,#trsf-img{
-    width: 200px;
-}
-#ef-img{
-    width: 100px;
-}
-
 .media-img{
-    width: 50px;
-    font-size: 45px;
+    width: 60px;
+    font-size: 53px;
     color: #1877f2;
-}
-
-.ig{
-    width: 52px;
-}
-
-.medios-pago{
-    display: flex;  
-    flex-direction: column;        
-    justify-content: flex-start; 
-    align-items: center;   
-    margin-left: 0;       
-    padding-left: 0;
 }
