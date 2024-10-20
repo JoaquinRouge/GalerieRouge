@@ -1,7 +1,6 @@
 class Cuadro {
-    constructor(imagen, nombre, precio) {
+    constructor(imagen, precio) {
         this.imagen = imagen;
-        this.nombre = nombre;
         this.precio = precio;
     }
 
@@ -10,7 +9,6 @@ class Cuadro {
         <div class="col-12 col-sm-6 col-md-4 mb-4">
           <div class="cuadro">
             <img src="${this.imagen}" alt="${this.nombre}" class="img-fluid" />
-            <p>${this.nombre}</p>
             <p>$${this.precio}</p>
           </div>
         </div>
@@ -28,7 +26,7 @@ function cargarCuadros() {
         .then(response => response.json())
         .then(data => {
             totalCuadros = data.length; // Guardamos la cantidad total de cuadros
-            cuadrosCargados = data.map(item => new Cuadro(item.imagen, item.nombre, item.precio)); // Almacenamos los cuadros en el array
+            cuadrosCargados = data.map(item => new Cuadro(item.imagen, item.precio)); // Almacenamos los cuadros en el array
             mostrarCuadros(); // Mostramos los cuadros iniciales
         })
         .catch(error => console.error("Error al cargar el JSON: ", error));

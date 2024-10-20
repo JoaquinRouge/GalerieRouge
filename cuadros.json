@@ -1,47 +1,50 @@
 [
     {
         "imagen":"./assets/images/descarga.jpeg",
-        "nombre":"Mona Lisa",
         "precio":34200
     },
     {
         "imagen":"./assets/images/descarga.jpeg",
-        "nombre":"Mona Lisa",
         "precio":34200
     },
     {
         "imagen":"./assets/images/descarga.jpeg",
-        "nombre":"Mona Lisa",
         "precio":34200
     },
     {
         "imagen":"./assets/images/descarga.jpeg",
-        "nombre":"Mona Lisa",
         "precio":34200
     },
     {
         "imagen":"./assets/images/descarga.jpeg",
-        "nombre":"Mona Lisa",
-        "precio":34200
-    },    
-    {
-        "imagen":"./assets/images/descarga.jpeg",
-        "nombre":"Mona Lisa",
         "precio":34200
     },
     {
         "imagen":"./assets/images/descarga.jpeg",
-        "nombre":"Mona Lisa",
         "precio":34200
     },
     {
         "imagen":"./assets/images/descarga.jpeg",
-        "nombre":"Mona Lisa",
         "precio":34200
     },
     {
         "imagen":"./assets/images/descarga.jpeg",
-        "nombre":"Mona Lisa",
+        "precio":34200
+    },
+    {
+        "imagen":"./assets/images/descarga.jpeg",
+        "precio":34200
+    },
+    {
+        "imagen":"./assets/images/descarga.jpeg",
+        "precio":34200
+    },
+    {
+        "imagen":"./assets/images/descarga.jpeg",
+        "precio":34200
+    },
+    {
+        "imagen":"./assets/images/descarga.jpeg",
         "precio":34200
     }
 ]
