@@ -1,7 +1,6 @@
 class Cuadro {
     constructor(imagen, precio) {
         this.imagen = imagen;
-        this.precio = precio;
     }
 
     generarHTML() {
@@ -9,7 +8,6 @@ class Cuadro {
         <div class="col-12 col-sm-6 col-md-4 mb-4">
           <div class="cuadro">
             <img src="${this.imagen}" alt="${this.nombre}" class="img-fluid" />
-            <p>$${this.precio}</p>
           </div>
         </div>
         `;
